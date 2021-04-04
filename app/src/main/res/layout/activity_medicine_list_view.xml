@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="20sp"
+
+    android:background="@drawable/listviwe"
+
+
+
+    android:orientation="horizontal"
+    android:layout_margin="10sp"
+    android:padding="10sp"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+
+
+
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="match_parent"
+
+        android:layout_weight="1"
+        android:text="Panadole"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textdate"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:text="2019/01/23"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/listbutedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.3"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+
+
+        />
+
+
+
+    <Button
+        android:id="@+id/listbutdel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.3"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_delete_forever_black_24dp"
+
+
+        />
+
+
+
+
+
+
+</LinearLayout>

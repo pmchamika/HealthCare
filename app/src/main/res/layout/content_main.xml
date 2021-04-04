@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="20sp">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="145dp"
+                        android:layout_height="145dp"
+                        android:onClick="openMa"
+                        app:srcCompat="@drawable/medicline" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="145dp"
+                        android:layout_height="145dp"
+                        android:onClick="openPa"
+                        app:srcCompat="@drawable/paitent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="20sp">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="openMa"
+                        android:paddingRight="35dp"
+                        android:text="Medicine"
+                        android:textColor="#030303"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="openPa"
+                        android:paddingLeft="35dp"
+                        android:text="Patient"
+                        android:textColor="#030303"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="20sp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="145dp"
+                        android:layout_height="145dp"
+                        android:onClick="openNote"
+                        app:srcCompat="@drawable/note_home_icon" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="145dp"
+                        android:layout_height="145dp"
+                        android:onClick="openAppointment"
+                        app:srcCompat="@drawable/view" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="20sp">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="openNote"
+                        android:paddingLeft="40dp"
+                        android:text="Note"
+                        android:textSize="18sp"
+                        android:textColor="#030303"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="75dp"
+                        android:onClick="openAppointment"
+                        android:text="Appointment"
+                        android:textColor="#030303"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

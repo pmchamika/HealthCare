@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.healthcare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Settings"
+            android:label="Settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" /></activity>
+
+        <activity
+            android:name=".UserProfile"
+            android:label="User Profile"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".IT17018760.ListViewAppointment"
+            android:label="Appointment"
+            android:parentActivityName=".IT17018760.AppointmentHome">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IT17018760.AppointmentHome" />
+        </activity>
+        <activity
+            android:name=".IT17018760.AppointmentHome"
+            android:label="Appointment"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".IT17018760.ViewAppointments"
+            android:label="Appointment Details"
+            android:parentActivityName=".IT17018760.ListViewAppointment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IT17018760.ListViewAppointment" />
+        </activity>
+        <activity
+            android:name=".IT17018760.Calendar"
+            android:label="Calender"
+            android:parentActivityName=".IT17018760.AppointmentHome">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IT17018760.AppointmentHome" />
+        </activity>
+        <activity
+            android:name=".IT17018760.AddAppointment"
+            android:label="Appointment"
+            android:parentActivityName=".IT17018760.ListViewAppointment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IT17018760.ListViewAppointment" />
+        </activity>
+        <activity
+            android:name=".NoteDetails"
+            android:label="Note Details"
+            android:parentActivityName=".NoteHome">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NoteHome" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Login"
+            android:parentActivityName=".Profile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Profile" />
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="Profile"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddNote"
+            android:label="@string/menu_add_note"
+            android:parentActivityName=".NoteHome">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NoteHome" />
+        </activity>
+        <activity
+            android:name=".NoteHome"
+            android:label="@string/menu_note"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".IT17152938.PatientDetailsView"
+            android:label="Patient Details"
+            android:parentActivityName=".IT17152938.PatientsViwe">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IT17152938.PatientsViwe" />
+        </activity>
+        <activity
+            android:name=".IT17152938.PatientsEdit"
+            android:label="Patient"
+            android:parentActivityName=".IT17152938.PatientsViwe">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IT17152938.PatientsViwe" />
+        </activity>
+        <activity
+            android:name=".IT17152938.PatientsViwe"
+            android:label="Patient"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".IT17056212.MedicineDetails"
+            android:label="Medicine Details"
+            android:parentActivityName=".IT17056212.MedicineView">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IT17056212.MedicineView" />
+        </activity>
+        <activity
+            android:name=".IT17056212.MedicineAdd"
+            android:label="Medicine"
+            android:parentActivityName=".IT17056212.MedicineView">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".IT17056212.MedicineView" />
+        </activity>
+        <activity
+            android:name=".IT17056212.MedicineView"
+            android:label="Medicine"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

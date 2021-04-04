@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Health Care</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Health Care</string>
+    <string name="nav_header_subtitle">kaushi.rajapakshe@gmail.com</string>
+    <string name="nav_header_desc">Kaushi Rajapakshe</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_medicine">Medicine</string>
+    <string name="menu_patient">Patient</string>
+    <string name="menu_note">Notes</string>
+    <string name="menu_appointment">Appointment</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_add_note">Note</string>
+    <string name="setting">Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="address_book">Search Medicine</string>
+    <string name="currency">Hospital Details</string>
+    <string name="language">Add Contact</string>
+    <string name="change_password">Change Password</string>
+    <string name="check_new_version">Check New Version</string>
+    <string name="your_shopping">Your Shopping</string>
+    <string name="sign_out">Sign Out</string>
+</resources>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".IT17056212.MedicineAdd">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="5dp"
+            android:background="@drawable/textviwe"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Drug Name"
+                    android:layout_marginStart="10sp"
+                    android:textColor="@color/txc"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/pe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:background="@color/tx"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="24sp" />
+                android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:layout_weight="1.5"
+                    android:text="Company"
+                    android:textColor="@color/txc"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/pe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="24sp"
+                    android:inputType="text"
+                    android:background="@color/tx"
+                    android:text="" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:layout_weight="1.5"
+                    android:text="Dosage"
+                    android:textColor="@color/txc"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/pe3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+
+                    android:layout_marginTop="5sp"
+                    android:textSize="24sp"
+                    android:layout_marginEnd="5dp"
+                    android:inputType="number"
+                    android:background="@color/tx"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:layout_weight="1.5"
+                    android:text="Medic.Condition"
+                    android:textColor="@color/txc"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/pe4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    android:ems="10"
+
+                    android:layout_marginTop="5sp"
+                    android:layout_marginEnd="5sp"
+                    android:inputType="text"
+                    android:background="@color/tx"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10sp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:layout_weight="1.5"
+                    android:text="Expiry Date"
+                    android:textColor="@color/txc"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/pe5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:layout_marginTop="5sp"
+                    android:textSize="24sp"
+                    android:layout_marginEnd="5sp"
+                    android:inputType="text"
+                    android:background="@color/tx"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:layout_weight="1.5"
+                    android:text="Side Effects"
+                    android:textColor="@color/txc"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/pe6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+
+                    android:layout_marginTop="5sp"
+                    android:textSize="24sp"
+                    android:layout_marginEnd="5sp"
+                    android:inputType="text"
+                    android:background="@color/tx"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="10sp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:layout_weight="1.5"
+                    android:text="Price"
+                    android:textColor="@color/txc"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/pe7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="24sp"
+                    android:ems="10"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:inputType="numberDecimal"
+                    android:background="@color/tx"
+                    android:text="" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/peadd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginBottom="30sp"
+                    android:background="@drawable/btn_rounded"
+                    android:drawableLeft="@drawable/ic_save_black_24dp"
+                    android:onClick="openPa"
+                    android:text="  Save Medicine"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+

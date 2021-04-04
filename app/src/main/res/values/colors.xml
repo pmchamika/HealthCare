@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#258011</color>
+    <color name="colorPrimaryDark">#1D851F</color>
+    <color name="colorAccent">#35DA45</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="viewbox">#EFFFA5</color>
+    <color name="sea">#FFDB3A</color>
+    <color name="tx">#FFF</color>
+    <color name="txc">#000</color>
+    <color name="notedit">#C5C3C3</color>
+    <color name="register">#FF236D28</color>
+</resources>
